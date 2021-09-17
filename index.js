@@ -15,7 +15,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 
 app.get('/', (req, res) => {
-    res.send('Hello to api');
+    res.send('Hello to api!');
 })
 
 // ***33@gmail.com for mongodb free server
